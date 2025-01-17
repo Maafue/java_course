@@ -1,18 +1,20 @@
 public class Tiger {
     private final String name;
     private final String lastname;
+    private final int age;
 
-     public Tiger(String name, String lastname) {
+     public Tiger(String name, String lastname, int age) {
          this.name = name;
          this.lastname = lastname;
+         this.age = age;
      }
 
      public static void main(String[] args) {
-         Tiger  tiger = new Tiger("Serega", "petrov");
+         Tiger  tiger = new Tiger("Serega", "petrov", 25);
          tiger.print();
      }
 
      void print () {
-         System.out.println("ARRRR I'm " + this.name + " " + this.lastname);
+         System.out.println("ARRRR I'm " + this.name + " " + this.lastname + " , " + this.age );
      }
 }
