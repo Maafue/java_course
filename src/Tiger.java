@@ -1,6 +1,6 @@
 public class Tiger {
-    // private final String name;
-    // private final String lastname;
+    private final String name;
+    private final String lastname;
 
     // public Tiger(String name, String lastname) {
     //     this.name = name;
