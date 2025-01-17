@@ -15,6 +15,6 @@ public class Tiger {
      }
 
      void print () {
-         System.out.println("ARRRR I'm " + this.name + " " + this.lastname + " , " + this.age );
+         System.out.println("ARRRR I'm " + this.name + " " + this.lastname + " , возраст" + this.age );
      }
 }
